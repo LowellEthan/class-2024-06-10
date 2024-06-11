@@ -1,0 +1,17 @@
+---
+title: "Quarto1"
+format: html
+execute:
+  echo: FALSE
+---
+
+```{r}
+library(tidyverse)
+library(primer.data)
+```
+
+```{r}
+read_csv(nyc_tracts.csv)
+```
+
+
